@@ -59,7 +59,7 @@ function IndexNavbar() {
               target="_blank"
               id="navbar-brand"
             >
-              NG Finance
+            NG Finance
             </NavbarBrand>
             <UncontrolledTooltip target="#navbar-brand">
               Nostalgia Finance

@@ -2,7 +2,7 @@
 import React from "react";
 
 // reactstrap components
-import { Container } from "reactstrap";
+import {Button, Container} from "reactstrap";
 // core components
 
 function IndexHeader() {
@@ -43,7 +43,23 @@ function IndexHeader() {
             {/*></img>*/}
             {/*<h1 className="h1-seo">Nostalgia Finance</h1>*/}
             <h1 className="title">Nostalgia Finance</h1>
-            <h3>Programmable money for the Nostalgia.</h3>
+            <h2>Programmable money for the Nostalgia.</h2>
+            {/*<Button*/}
+            {/*    className="btn-icon btn-round"*/}
+            {/*    color="info"*/}
+            {/*    href="#pablo"*/}
+            {/*    onClick={(e) => e.preventDefault()}*/}
+            {/*>*/}
+            {/*  <i className="fab fa-twitter"></i>*/}
+            {/*</Button>*/}
+            {/*<Button*/}
+            {/*    className="btn-icon btn-round"*/}
+            {/*    color="info"*/}
+            {/*    href="#pablo"*/}
+            {/*    onClick={(e) => e.preventDefault()}*/}
+            {/*>*/}
+            {/*  <i className="fab fa-google-plus"></i>*/}
+            {/*</Button>*/}
           </div>
           {/*<h6 className="category category-absolute">*/}
           {/*  Designed by{" "}*/}

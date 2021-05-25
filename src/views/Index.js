@@ -204,9 +204,8 @@ function Index() {
           {/*<CompleteExamples />*/}
           {/*<SignUp />*/}
           {/*<Examples />*/}
-          {/*<Download />*/}
+          <Download />
         </div>
-
         <DarkFooter />
       </div>
     </>
