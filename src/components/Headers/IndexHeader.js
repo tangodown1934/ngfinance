@@ -1,8 +1,9 @@
 /*eslint-disable*/
 import React from "react";
+import { FaTelegram } from "react-icons/fa";
 
 // reactstrap components
-import {Button, Container} from "reactstrap";
+import {Button,Container} from "reactstrap";
 // core components
 
 function IndexHeader() {
@@ -44,6 +45,18 @@ function IndexHeader() {
             {/*<h1 className="h1-seo">Nostalgia Finance</h1>*/}
             <h1 className="title">Nostalgia Finance</h1>
             <h2>Programmable money for the Nostalgia.</h2>
+            <h3>
+              Simply hold NG Token in your wallet and you will get more.
+
+              On each transaction the protocol automatically distributes
+              rewards to holders as well as auto-locks liquidity forever.
+            </h3>
+
+            <Button className="btn-round" color="info" type="button" size="lg">
+              <FaTelegram size={30}/>
+              &nbsp;&nbsp;&nbsp;&nbsp;Join the community
+            </Button>
+
             {/*<Button*/}
             {/*    className="btn-icon btn-round"*/}
             {/*    color="info"*/}
@@ -52,6 +65,7 @@ function IndexHeader() {
             {/*>*/}
             {/*  <i className="fab fa-twitter"></i>*/}
             {/*</Button>*/}
+
             {/*<Button*/}
             {/*    className="btn-icon btn-round"*/}
             {/*    color="info"*/}

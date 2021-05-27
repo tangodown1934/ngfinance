@@ -59,7 +59,7 @@ function Index() {
             <Container>
               <Row>
                 <Col className="ml-auto mr-auto text-center" md="8">
-                  <h2 className="title">Who we are?</h2>
+                  <h2 className="title">Token details</h2>
                   <h5 className="description">
                     According to the National Oceanic and Atmospheric
                     Administration, Ted, Scambos, NSIDClead scentist, puts the
@@ -137,6 +137,76 @@ function Index() {
                       natural reasons, there’s huge variety of the state of the
                       ice.
                     </p>
+                  </Col>
+                </Row>
+              </div>
+            </Container>
+          </div>
+
+          <div className="section section-team text-center">
+            <Container>
+              <h2 className="title">Token Details</h2>
+              <div className="team">
+                <Row>
+                  <Col md="4">
+                    <div className="team-player">
+                      {/*<img*/}
+                      {/*    alt="..."*/}
+                      {/*    className="rounded-circle img-fluid img-raised"*/}
+                      {/*    src={require("assets/img/member1.jpg").default}*/}
+                      {/*></img>*/}
+                      <h4 className="title">CONTRACT</h4>
+                      {/*<p className="category text-info">Model</p>*/}
+                      <p className="description">
+                        You can write here details about one of your team members.
+                        You can give more details about what they do. Feel free to
+                        add some{" "}
+                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                          links
+                        </a>{" "}
+                        for people to be able to follow them outside the site.
+                      </p>
+                    </div>
+                  </Col>
+                  <Col md="4">
+                    <div className="team-player">
+                      {/*<img*/}
+                      {/*    alt="..."*/}
+                      {/*    className="rounded-circle img-fluid img-raised"*/}
+                      {/*    src={require("assets/img/member2.jpg").default}*/}
+                      {/*></img>*/}
+                      <h4 className="title">90% LOCKED LIQUIDITY</h4>
+                      {/*<p className="category text-info">Designer</p>*/}
+                      <p className="description">
+                        You can write here details about one of your team members.
+                        You can give more details about what they do. Feel free to
+                        add some{" "}
+                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                          links
+                        </a>{" "}
+                        for people to be able to follow them outside the site.
+                      </p>
+                    </div>
+                  </Col>
+                  <Col md="4">
+                    <div className="team-player">
+                      {/*<img*/}
+                      {/*    alt="..."*/}
+                      {/*    className="rounded-circle img-fluid img-raised"*/}
+                      {/*    src={require("assets/img/member2.jpg").default}*/}
+                      {/*></img>*/}
+                      <h4 className="title">10% TEAM TOKENS</h4>
+                      {/*<p className="category text-info">Designer</p>*/}
+                      <p className="description">
+                        You can write here details about one of your team members.
+                        You can give more details about what they do. Feel free to
+                        add some{" "}
+                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
+                          links
+                        </a>{" "}
+                        for people to be able to follow them outside the site.
+                      </p>
+                    </div>
                   </Col>
                 </Row>
               </div>

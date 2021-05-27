@@ -21,7 +21,24 @@ import {
 function IndexNavbar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
   const [collapseOpen, setCollapseOpen] = React.useState(false);
+  const [isVisible, setIsVisible] = React.useState(false);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  };
+
   React.useEffect(() => {
+    const toggleVisibility = () => {
+      if (window.pageYOffset > 500) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    };
+
     const updateNavbarColor = () => {
       if (
         document.documentElement.scrollTop > 399 ||
@@ -35,8 +52,10 @@ function IndexNavbar() {
         setNavbarColor("navbar-transparent");
       }
     };
+    window.addEventListener("scroll", toggleVisibility);
     window.addEventListener("scroll", updateNavbarColor);
     return function cleanup() {
+      window.removeEventListener("scroll", toggleVisibility);
       window.removeEventListener("scroll", updateNavbarColor);
     };
   });
@@ -55,15 +74,14 @@ function IndexNavbar() {
         <Container>
           <div className="navbar-translate">
             <NavbarBrand
-              href="#"
-              target="_blank"
               id="navbar-brand"
+              onClick={scrollToTop}
             >
-            NG Finance
+              NG Finance
             </NavbarBrand>
-            <UncontrolledTooltip target="#navbar-brand">
-              Nostalgia Finance
-            </UncontrolledTooltip>
+            {/*<UncontrolledTooltip target="#navbar-brand">*/}
+            {/*  Nostalgia Finance*/}
+            {/*</UncontrolledTooltip>*/}
             <button
               className="navbar-toggler navbar-toggler"
               onClick={() => {

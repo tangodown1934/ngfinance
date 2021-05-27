@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e56aad6d-4ede-4c4c-83c6-835d64eec4b3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/now-ui-kit/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/now-ui-kit/_navbar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Headers/IndexHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Headers/IndexHeader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navbars/IndexNavbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbars/IndexNavbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/index-sections/Download.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index-sections/Download.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,13 +23,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1sz1aVs9B3r5TEm3hKoJLGBu2Zb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/img" />
@@ -60,12 +62,16 @@
       <option name="presentableId" value="Default" />
       <updated>1621860667600</updated>
       <workItem from="1621860669441" duration="7764000" />
-      <workItem from="1621959605622" duration="2888000" />
+      <workItem from="1621959605622" duration="3534000" />
+      <workItem from="1622123465907" duration="4605000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="997" y="529" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1621868197030">
@@ -88,10 +94,10 @@
       <screen x="0" y="25" width="2560" height="1415" />
     </state>
     <state width="2539" height="387" key="GridCell.Tab.0.right/2560.-654.1440.2535/0.25.2560.1415@0.25.2560.1415" timestamp="1621861184565" />
-    <state x="719" y="261" width="1090" height="777" key="find.popup" timestamp="1621964328562">
+    <state x="1255" y="312" width="1090" height="777" key="find.popup" timestamp="1622128571599">
       <screen x="0" y="25" width="2560" height="1415" />
     </state>
-    <state x="719" y="261" width="1090" height="777" key="find.popup/2560.-654.1440.2535/0.25.2560.1415@0.25.2560.1415" timestamp="1621964328562" />
+    <state x="1255" y="312" width="1090" height="777" key="find.popup/2560.-654.1440.2535/0.25.2560.1415@0.25.2560.1415" timestamp="1622128571599" />
     <state x="945" y="349" width="670" height="676" key="search.everywhere.popup" timestamp="1621964030194">
       <screen x="0" y="25" width="2560" height="1415" />
     </state>
